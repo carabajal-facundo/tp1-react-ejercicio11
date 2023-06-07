@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useState } from 'react';
+import ListadoNoticias from './ListadoNoticias';
 
 const Formulario = () => {
 
@@ -32,6 +33,7 @@ const Formulario = () => {
                 <Button variant='success' type='submit'>Filtrar</Button>
             </Form.Group>
         </Form>
+        <ListadoNoticias className="row"/>
         </>
     );
 };

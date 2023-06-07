@@ -2,7 +2,6 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Formulario from './components/Formulario';
 import { Container } from 'react-bootstrap';
-import ListadoNoticias from './components/ListadoNoticias';
 
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
       <hr/>
       <Container className='border border-3 border-black-subtle radius rounded'>
         <Formulario/>
-        <ListadoNoticias className="row"/>
       </Container>
     </>
   )
