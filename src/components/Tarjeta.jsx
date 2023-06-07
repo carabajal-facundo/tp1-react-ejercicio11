@@ -1,14 +1,14 @@
 import React from 'react';
 import { Card,Button } from 'react-bootstrap';
 
-const Tarjeta = () => {
+const Tarjeta = ({titulo,descripcion,imagen}) => {
     return (
-        <Card className='my-3 col-3 mx-4'>
-            <Card.Img src=""/>
+        <Card className='my-3 col-lg-3 mx-4'>
+            <Card.Img className='img-fluid' src={imagen}/>
             <Card.Body>
-                <Card.Title>Titulo de la noticia</Card.Title>
+                <Card.Title>{titulo}</Card.Title>
                 <Card.Text>
-                    Aqui va un texto no tan largo de la noticia
+                    {descripcion}
                 </Card.Text>
                 <Button variant="primary">Ver mas</Button>
             </Card.Body>
