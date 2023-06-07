@@ -5,7 +5,7 @@ const ListadoNoticias = () => {
 
     return (
         <>
-        <section className='row'>
+        <section className='row justify-content-center'>
             <Tarjeta/>
             <Tarjeta/>
             <Tarjeta/>
